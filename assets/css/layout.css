@@ -1,0 +1,45 @@
+:root{
+    --main-bg:#9cbfeb;
+    /* --main-bg:#ffffff; */
+    --item-bg:rgb(29, 71, 116);
+  }
+  
+  .main-bg {
+    background: var(--main-bg) !important;
+  }
+
+  .form-control{
+    border: 2px rgb(105, 105, 195) solid;
+  }
+  
+  input:focus, button:focus {
+    border: 1px solid var(--main-bg) !important;
+    box-shadow: none !important;
+  }
+  
+ .submit-btn{
+    background: rgb(29, 71, 116) !important;
+ }
+ .submit-btn:hover{
+    background:rgb(105, 105, 195) !important;
+ }
+  
+  .card, .btn, input{
+    
+    border-radius:5px ;
+  }
+  
+  .card-header{
+    background: rgb(29, 71, 116) !important;
+    color:white !important;
+  }
+
+  .card-title{
+    background: rgb(29, 71, 116);
+    color: white;
+    border-radius: 10px;
+  }
+
+  .card-cont{
+    border-radius: 10px;
+  }

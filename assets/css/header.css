@@ -1,0 +1,13 @@
+header .navbar{
+    background-color: rgb(131, 234, 90);
+}
+
+.navbar-brand{
+    color:rgb(105, 105, 195);
+    font-weight: 700;
+}
+
+.search-input{
+    border:2px rgb(105, 105, 195) solid;
+    width:15vw;
+}
